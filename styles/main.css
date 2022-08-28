@@ -6,6 +6,18 @@
     --mainLinkColor: #0da2b8;
     --mainBorderColor: (218, 218, 218);
     --mainBgColor: rgb(249, 250, 251);
+
+    --mainTextColor-dark: #fff;
+    --secondaryTextColor-dark: #adb0b1;
+    --mainLinkCOlor-dark: #adb0b1;
+    --mainBorderColor-dark: #2b3031;
+    --mainBgColor-dark: #131415;
+
+    --mainTextColor:var(--mainTextColor-dark);
+    --secondaryTextColor:var(--secondaryTextColor-dark);
+    --mainLinkColor:var(--mainLinkColor-dark);
+    --mainBorderColor:var(--mainBorderColor-dark);
+    --mainBgColor: var(--mainBgColor-dark);
 }
 
 *{
@@ -60,6 +72,7 @@ li{
 }
 
 #profile-pic{
+    border-radius: 80%;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -87,4 +100,17 @@ li{
 
 #qualifications--list{
     list-style: none;
+}
+
+#wrapper--techstack__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.card--techstack{
+    border:1px solid var(--mainBorderColor);
+    padding: 0.5em 1em;
+    border-radius: 5px;
 }
