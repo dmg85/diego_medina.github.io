@@ -32,6 +32,7 @@ a{
 
 li{
     line-height: 1.9em;
+<<<<<<< HEAD
 }
 
 #container--main{
@@ -87,4 +88,6 @@ li{
 
 #qualifications--list{
     list-style: none;
+=======
+>>>>>>> a55d3a2d9bed68e9898509a83d8ab5ef1e2e7c93
 }
