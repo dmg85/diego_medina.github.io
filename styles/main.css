@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 :root{
-    --mainTextColor: #000;
-    --secondaryTextColor: (51 51 51);
-    --mainLinkColor: #0da2b8;
-    --mainBorderColor: (218, 218, 218);
-    --mainBgColor: rgb(249, 250, 251);
+    --mainTextColor-light: #000;
+    --secondaryTextColor-light: (51 51 51);
+    --mainLinkColor-light: #0da2b8;
+    --mainBorderColor-light: (218, 218, 218);
+    --mainBgColor-light: rgb(249, 250, 251);
 
     --mainTextColor-dark: #fff;
     --secondaryTextColor-dark: #adb0b1;
-    --mainLinkCOlor-dark: #adb0b1;
+    --mainLinkColor-dark: #adb0b1;
     --mainBorderColor-dark: #2b3031;
     --mainBgColor-dark: #131415;
 
-    --mainTextColor:var(--mainTextColor-dark);
-    --secondaryTextColor:var(--secondaryTextColor-dark);
-    --mainLinkColor:var(--mainLinkColor-dark);
-    --mainBorderColor:var(--mainBorderColor-dark);
-    --mainBgColor: var(--mainBgColor-dark);
+    --mainTextColor:var(--mainTextColor-light);
+    --secondaryTextColor:var(--secondaryTextColor-light);
+    --mainLinkColor:var(--mainLinkColor-light);
+    --mainBorderColor:var(--mainBorderColor-light);
+    --mainBgColor: var(--mainBgColor-light);
 }
 
 *{
@@ -113,4 +113,16 @@ li{
     border:1px solid var(--mainBorderColor);
     padding: 0.5em 1em;
     border-radius: 5px;
+}
+
+.card--work-history{
+    border-left: 1px solid var(--mainBorderColor);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+.line-break{
+    background-color: var(--mainBgColor-dark);
+    height: 1px;
 }
